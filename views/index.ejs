@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarik Eshaq</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="/image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="/image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.2.0/dist/phaser.min.js"></script>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Tarik Eshaq</h1>
+            <h2>Software Developer / Student</h2>
+            <a href="/resume/Tarik_Eshaq_RESUME.pdf" class="btn-rounded-white" download>Download Resume</a>
+        </div>
+
+        <!-- JS GAME GOES HERE  -->
+        <div id="phaser-game"></div>
+
+
+        <!-- End of JS game -->
+
+
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      Growing up in war-torn Yemen, I was raised to be grateful. After being displaced to Canada due to the war, I started to realize how much I have been missing.
+                      I experienced a gaigantic paradigm shift, from having less than five hours of electricity a day, to expereincing first hand the development of technology.
+                      This led to a fascination in technology. I have since been pursuing this fascination, which led me to succeed in one of the best universities in the world.
+                      I'm currently pursuing a career in technology as I hope to create an impact and further explore my passion.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of British Columbia</h3>
+            <span class="education-date">Sept 2016 - April 2021</span>
+            <h4>Bachelor of Commerce in a combined major in Business and Computer Science </h4>
+            <ul>
+                <li>
+                    Commulative average: 86%
+                </li>
+                <li>
+                    Key Courses:
+                    <ul>
+                      <li>Introduction to Data Sturctures and Algorithms (C++) - 94%</li>
+                      <li>Object Oriented Programming and Software Construction (Java) - 95%</li>
+                      <li>Introduction to Computer Systems (C) - 94%</li>
+                      <li>Differential Calculus - 93%</li>
+                      <li>Integral Calculus - 92%</li>
+                      <li>Managerial Economics - 93%</li>
+                      <li>Financial Accounting - 93%</li>
+                    </ul>
+                </li>
+                <li>
+                    Key Project:
+                    <ul>
+                      <li>Busses-R-Us
+                        <ul>
+                          <li>Used object-oriented programming to build the Java backend of an android application that helps students find bus stops to navigate around campus.</li>
+                          <li>Tested the application using JUnit testing to develop the application efficiently and ensure it worked properly.</li>
+                          <li>Handled and JSON parsed Translink API to extract the bus stop, arrival and route data.</li>
+                          <li>Achieved a grade of 100% on this course project.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/capture.JPG" class="project-image-actual"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>YelpCamp - Web Development Bootcamp Project (Udemy.com)</h3>
+                          <ul>
+                            <li>Proactively completed a 43-hour online course on backend and frontend web development.</li>
+                            <li>Built a multitude of web apps, including a complete campground booking webapp.</li>
+                            <li id="to-align">Technology Used: JavaScript, Node.JS, Express.JS, MongoDB, BootStrap.
+                            </li>
+                          </ul>
+                        <a target="_blank" href="https://secret-stream-82230.herokuapp.com/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/EYChallenge.png" class="project-image-actual" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Accountless - EY challenge Landing Page</h3>
+                        <ul>
+                            <li>Participated in the EY challenge, where in a team of four, contestants were asked to pitch a mystery product.</li>
+                            <li>On my oun initative, I contributed by building a landing page for the product (Accountless).</li>
+                            <li>Technology Used: JavaScript, Node.JS, Font-awesome, CSS, HTML, BootStrap.</li>
+                        </ul>
+                        <a target="_blank" href="http://www.accountless.ca">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/nwhacks.png" class="project-image-actual" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>nwHacks - Hackathon</h3>
+                          <ul>
+                            <li>Developed the backend of an android application that serves as a decentralized shared GPS application that helps people keep track of each other’s locations where WIFI isn’t available.</li>
+                            <li>Worked in a team of five to build the application within 24-hours</li>
+                            <li>Technology Used: Java, Android SDK - Android Studio, RightMesh API</li>
+                          </ul>
+                        <a target= "_blank" href="https://github.com/DSep/ConnectivityApp">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2016 – December 2017">
+                <h3>University of British Columbia</h3>
+                <h4>Varisty Events Promotion Staff (Part-time)</h4>
+                <p>
+                  Worked part-time with Varsity Events while taking a full course-load in school. Was able to manage time and succeed in school.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Assembly</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Node.JS</li>
+            <li>Express.JS</li>
+            <li>jQuery</li>
+            <li>JUnit</li>
+            <li>Visual Studio</li>
+            <li>Android Studio</li>
+            <li>Git & Github</li>
+            <li>MongoDB</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/tarik.eshaq@alumni.ubc.ca">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2018 Tarik Eshaq
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/tarikeshaq" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
