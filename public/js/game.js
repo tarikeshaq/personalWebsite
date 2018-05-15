@@ -1,4 +1,6 @@
-
+/*
+  Work in progress!! Game to be added to the website.
+*/
 var config = {
     type: Phaser.AUTO,
     width: 800,
